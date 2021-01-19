@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG_Pro">
+    <listeners>
+        <listener class-name="com.example.demo.CustomerReporter">
+        </listener>
+    </listeners>
+    <test name="exampleTest2">
+        <classes>
+            <class name="com.example.demo.Test2">
+                <methods>
+                    <include name="testPrintMessage"/>
+                    <include name="testSalutationMessage"/>
+                    <include name="testExitMessage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
