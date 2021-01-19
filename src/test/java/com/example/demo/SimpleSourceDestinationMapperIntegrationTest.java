@@ -16,7 +16,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 public class SimpleSourceDestinationMapperIntegrationTest {
 
-    private SimpleSourceDestination simple = new SimpleSourceDestinationMapperImpl();
+    private SimpleSourceDestination simple = new SimpleSourceDestinationMapperImpl()git ;
 
     @Test
     public void givenSourceToDestination_whenMaps_thenCorrect(){
